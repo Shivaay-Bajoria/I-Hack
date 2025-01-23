@@ -1,0 +1,92 @@
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #e2fde6;
+  color: #0e100e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input {
+  padding: 15px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+input[type="submit"] {
+  background-color: #1a1d1a;
+  font-size: 16px;
+  color: #e2fde6;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0d0e0d;
+}
+
+#prediction {
+  padding: 10px 20px;
+  width: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 20px;
+  height: 100px;
+  width: 300px;
+}
+
+h1 {
+  color: #7d5437;
+  font-family: "Gambarino", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0;
+}
+
+#probability {
+  font-family: "JetBrains Mono";
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
